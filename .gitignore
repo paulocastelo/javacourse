@@ -1,0 +1,60 @@
+echo "# Java-specific ignores
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (JMT) specific files
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Eclipse specific files
+.metadata/
+.classpath
+.project
+.settings/
+bin/
+
+# IntelliJ IDEA specific files
+*.iml
+.idea/
+out/
+
+# NetBeans specific files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code specific files
+.vscode/
+
+# Maven specific files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle specific files
+.gradle/
+build/
+
+# Other generated files
+.DS_Store
+Thumbs.db" > .gitignore

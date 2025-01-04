@@ -6,9 +6,9 @@ import java.math.BigDecimal;
 
 public class ReajusteService {
 
-	public void concederReajuste(Funcionario funcionario, Desempenho desempenho) {
-		BigDecimal percentual = desempenho.percentualReajuste();
-		BigDecimal reajuste = desempenho.percentualReajuste().multiply(percentual);
-		funcionario.reajustarSalario(reajuste);
-	}
+    public void concederReajuste(Funcionario funcionario, Desempenho desempenho) {
+        BigDecimal percentual = desempenho.percentualReajuste();
+        BigDecimal aumento = funcionario.getSalario().multiply(percentual);
+        funcionario.reajustarSalario(aumento);
+    }
 }

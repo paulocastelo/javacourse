@@ -1,4 +1,3 @@
-
 package com.castlesolutions.rhsimples.modelo;
 
 import java.math.BigDecimal;
